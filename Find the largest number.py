@@ -16,7 +16,6 @@ c = float(input("Enter your third number: "))
 # Call the function
 letter, largest = find_largest(a, b, c)
 
-# Remove .0 if whole number
 if largest.is_integer():
     largest = int(largest)
 
